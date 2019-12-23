@@ -1,0 +1,182 @@
+
+.image_fond {
+  background-image: url(flamme.jpg);
+  /*height: 500px;*/
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+div.galerie:hover {
+  border: 1px solid #777;
+}
+
+div.contact b{
+	font-size: 24px;
+	font-family: Segoe UI;
+	color: white;
+	font-weight: lighter;
+	margin-left: 190px;
+}
+
+.pour_contact{
+	width: 2%;
+	position: relative;
+	left: 15%;
+	margin-top: -2px;
+	background-color: white;
+}
+div.contact{
+	/*margin: 14px;*/
+}
+
+div .form input {
+  margin: 10px;
+ /* margin-left: 200px;*/
+  border: 1px solid #ffffff;
+  width: 450px;
+  padding: 10px;
+  background-color: transparent;
+}
+
+div .form label {
+	margin: 10px;
+	font-family: Segoe UI;
+  	color: white;
+  	font-size: 14px;
+  	/*margin-left: 200px;*/
+}
+
+div .form textarea {
+  margin: 10px;
+  /*margin-left: 200px;*/
+  border: 1px solid #ffffff;
+  width: 190%;
+  padding: 20px;
+  height: 100px;
+  background-color: transparent;
+}
+
+div.form p {
+	font-size: 12px;
+	font-family: segeo UI;
+	color: white;
+	margin-left: 20%;
+	position: relative;
+	right: 5%;
+}
+
+.p1 {
+	margin-right: 3%;
+
+}
+
+.p2{
+	margin-top: 4%;
+	margin-right: 22%;
+}
+
+.form {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+
+}
+
+div.bouton button {
+	border: none;
+	width: 30%;
+	background-color: #4bcaff;
+	padding: 2%;
+	margin-left: 30%;
+	text-align: center;
+	color: white;
+}
+
+
+div.footer {
+  	margin-top: -2%;
+  	background-color: #fff;
+  	height: 90px;
+  	position: fixed;
+}
+
+div.foot ul{	
+	margin-top: 2%;
+	margin-left: 12%;
+	
+
+}
+
+.foot a {
+	text-decoration: none;
+	color: #3f4a52;
+	font-family: segeo UI;
+	font-size: 12;
+}
+
+
+.foot span {
+	margin: 2%;
+	color: #3f4a52;
+	font-family: segeo UI;
+	font-size: 12;
+}
+.hr3{
+	width: 3%;
+	/*margin-top: -3%;*/
+	margin-top: 0.2%;
+	margin-left: 14.5%;
+}
+.a_deplacer{
+	margin-left: 28%;
+}
+.a_dimunuer{
+	width: 80%;
+	margin-top: 2%;
+}
+footer{
+	background-color: #353f47;
+	height: 100px;
+}
+footer a{
+	color: #515f67;
+	
+}
+.pdp{
+	margin-left: 15%;
+	padding-top: 3%;
+}
+.pdp a{
+	font-size: 8pt;
+	font-weight: bold;
+	font-family: "Segoe UI";
+	padding: 5px;
+}
+.copy{
+	position: relative;
+	left: 50%;
+	color: #515f67;
+	font-size: 8pt;
+}
+.sms{
+	font-size: 8pt;
+	font-family: "Segoe UI"
+	font-weight:bold;
+}
+.sms:hover{
+color: #515f67;
+}
+@media screen and (min-width: 360px) and (max-width: 812px){
+	.p1 {
+	margin-right: -2%;
+
+}
+.p2{
+	margin-top: 4%;
+	margin-right: -18%;
+}
+.a_dimunuer{
+	width: 30%;
+	margin-top: 2%;
+}
+
+}

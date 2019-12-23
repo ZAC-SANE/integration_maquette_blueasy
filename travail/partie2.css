@@ -1,0 +1,291 @@
+.nav-menu{
+	padding: 0px;
+	margin: 0px;
+}
+.tout{
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+}
+.bar_bleu, .service{
+	
+	display: grid;
+	grid-template-columns: repeat(4,250px);
+	margin-left: 10%;
+	margin-right: 10%;
+}
+/*.bar_blanc{
+	background-color: #fff;
+
+}*/
+/*li{
+	display: inline-block;
+	padding: 10px;
+	position: relative;
+	left:53%;
+	color: #69747b;
+	font-family: 'Segoe UI';
+	font-size: 12pt;
+	font-weight: bold;
+
+}*/
+/*ul{
+	margin-top: -10%;
+}*/
+.marge{
+	margin-right: 10%;
+	margin-left: 10%;
+}
+.photo{
+	background-color: #fff;
+	display: grid;
+	grid-template-columns: repeat(4,240px);
+	margin-left: 5%;
+	margin-right: 5%;
+
+}
+.image1{
+	background-image: url(pond1.png);
+	width: 200px;
+	height: 200px;
+	border: 20px solid #fff;
+}
+.image2{
+	background-image: url(echelle.png);
+	width: 200px;
+	height: 200px;
+	border: 20px solid #fff;
+	
+}
+.image3{
+	background-image: url(montagne.png);
+	width: 200px;
+	height: 200px;
+	border: 20px solid #fff;
+	
+}
+.image4{
+	background-image: url(arbre1.png);
+	width: 200px;
+	height: 200px;
+	border: 20px solid #fff;
+	
+}
+.image5{
+	background-image: url(cavanne.png);
+	width: 200px;
+	height: 200px;
+	border: 20px solid #fff;
+	
+}
+.image6{
+	background-image: url(surf.png);
+	width: 200px;
+	height: 200px;
+	border: 20px solid #fff;
+	
+}
+.image7{
+	background-image: url(neige.png);
+	width: 200px;
+	height: 200px;
+	border: 20px solid #fff;
+}
+.image8{
+	background-image: url(chut.png);
+	width: 200px;
+	height: 200px;
+	border: 20px solid #fff;
+}
+.bar_gris{
+	background-color: #515f67;
+	display: grid;
+	grid-template-columns: repeat(2,670px);
+}
+.section1{
+	margin-left: 30%;
+	/*margin-right: 4%;*/
+}
+.section2{
+	margin-right: 15%;
+	padding: 20px;
+	/*margin-left: 5%;*/
+	/*margin-top: -8%;*/
+}
+.service{
+	color: #fff;
+}
+/*hr{
+	width: 25px;
+	float: left;
+	margin-top: 5%;
+	color: #69747b;
+	margin-left: -5%;
+	
+}*/
+#hr{
+	width: 4%;
+	margin-top: -0.2%;
+	margin-left: 7%;
+}
+#hr1{
+	width: 10%;
+	/*margin-top: -3%;*/
+	/*margin-top: -0.2%;*/
+	margin-left: -0.2%;
+}
+
+#coffee,#instant,#serious,#frame,.just{
+	color: #fff;
+}
+.just{
+	font-family: 'Segoe UI';
+	font-weight: lighter;
+	/*font-size: 15px*/
+	margin-bottom: -1%;
+	font-size: 25pt;
+	text-transform: uppercase;
+}
+
+.p1{
+	font-family: 'Segoe UI';
+	font-weight: 'Regular';
+	font-size: 12px;
+}
+.para_coffee,.para_instant,.para_serious,.para_frame,.p1{
+	color: #fff;
+}
+/*a{
+	text-decoration: none;
+	color: #69747b;
+}*/
+.all a {
+	/*border: 1px solid #4bcaff;
+	color: #4bcaff;*/
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#all{
+	border: 1px solid #4bcaff;
+	color: #4bcaff
+}
+.porfolio{
+	color: #69747b;
+	font-family: 'Segoe UI';
+	font-weight: lighter;
+	font-size: 25pt;
+	text-transform: uppercase;
+	margin-top: 2%;
+	margin-left: 7%;
+
+}
+.visite a{
+	border: 1px solid #69747b;
+	border-top: 2px solid #69747b;
+	color: #69747b;
+	width: 60px;
+}
+.visite a:hover{
+	border: 1px solid #4bcaff;
+	color: #4bcaff;
+}
+.lie{
+	float: right;
+	padding: 10px;
+}
+.en_bas{
+	margin-right: 6%;
+	margin-top: -5%;
+}
+.titre_menu{
+	margin-top: 3%;
+}
+.lie a{
+	color: #69747b;
+	font-family: 'Segoe UI';
+	font-size: 12pt;
+	font-weight: bold;
+}
+.lie a:hover{
+	border: 1px solid #4bcaff;
+	color: #4bcaff;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+@media all and (min-width: 360px)) and (max-width: 812px){
+	.photo{
+	background-color: #fff;
+	display: grid;
+	grid-template-columns: repeat(4,240px);
+	margin-left: 0%;
+	margin-right: 0%;
+
+}
+.image1{
+	background-image: url(pond1.png);
+	width: 100px;
+	height: 100px;
+	border: 10px solid #fff;
+}
+.image2{
+	background-image: url(echelle.png);
+	width: 100px;
+	height: 100px;
+	border: 10px solid #fff;
+	
+}
+.image3{
+	background-image: url(montagne.png);
+	width: 100px;
+	height:100px;
+	border: 10px solid #fff;
+	
+}
+.image4{
+	background-image: url(arbre1.png);
+	width: 100px;
+	height: 100px;
+	border: 10px solid #fff;
+	
+}
+.image5{
+	background-image: url(cavanne.png);
+	width: 100px;
+	height: 100px;
+	border: 10px solid #fff;
+	
+}
+.image6{
+	background-image: url(surf.png);
+	width: 100px;
+	height: 100px;
+	border: 10px solid #fff;
+	
+}
+.image7{
+	background-image: url(neige.png);
+	width: 100px;
+	height: 100px;
+	border: 10px solid #fff;
+}
+.image8{
+	background-image: url(chut.png);
+	width: 100px;
+	height: 100px;
+	border: 10px solid #fff;
+}
+.section1{
+	margin-left: 38%;
+	/*margin-right: 4%;*/
+}
+.section2{
+	margin-right: 20%;
+	padding: 20px;
+	margin-left: 10%;
+	/*margin-top: -8%;*/
+}
+
+}
